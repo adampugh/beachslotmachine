@@ -1,6 +1,7 @@
 import React from 'react';
 
 import SlotMachine from './components/SlotMachine/SlotMachine';
+
 import Red from './assets/red.png';
 import Yellow from './assets/yellow.png';
 import Green from './assets/green.png';

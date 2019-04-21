@@ -9,7 +9,8 @@ class SlotMachine extends Component {
         second: '',
         third: '',
         counter: 0,
-        open: false
+        open: false,
+        disabled: false
     }
 
     componentDidMount() {
@@ -52,12 +53,16 @@ class SlotMachine extends Component {
                 counter: counter++,
                 first: wheel[left],
                 second: wheel[center],
-                third: wheel[right]
+                third: wheel[right],
+                disabled: true
             });
 
             // check result when finished spinning
             if (counter > 10) {
-                this.setState({ counter: 0 });
+                this.setState({ 
+                    counter: 0,
+                    disabled: false
+                });
                 this.checkResult();
                 clearInterval(spin);
             }
@@ -74,7 +79,7 @@ class SlotMachine extends Component {
     }
 
     render() {
-        const { first, second, third, open } = this.state;
+        const { first, second, third, open, disabled } = this.state;
 
         return (
             <div className="slotMachine">
@@ -94,7 +99,7 @@ class SlotMachine extends Component {
                     </div>
                 </div>
                 <div className="slotMachine__buttons">
-                    <button className="btn" onClick={this.handleSpin}>Play</button>
+                    <button className="btn" onClick={this.handleSpin} disabled={disabled}>Play</button>
                     <h3 className="slotMachine__buttons__text">Click the play button to start!</h3>
                 </div>
             </div>

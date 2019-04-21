@@ -78,6 +78,10 @@ html, body {
 	&:hover {
 		cursor: pointer;
 	}
+	&:disabled {
+		background: grey;
+		cursor: not-allowed;
+	}
 }
 
 @media (min-width: $desktop-breakpoint) {
