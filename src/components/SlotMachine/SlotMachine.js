@@ -43,7 +43,7 @@ class SlotMachine extends Component {
 
         const spin = setInterval(() => {
 
-            // generate random number
+            // generate random numbers
             let left = this.random();
             let center = this.random();
             let right = this.random();

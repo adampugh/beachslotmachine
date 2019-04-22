@@ -1,0 +1,753 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SlotMachine /> should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SlotMachine
+    wheel={
+      Array [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Modal
+          animationDuration={500}
+          blockScroll={true}
+          center={true}
+          classNames={Object {}}
+          classes={
+            Object {
+              "closeButton": "styles_closeButton__20ID4",
+              "closeIcon": "styles_closeIcon__1QwbI",
+              "modal": "styles_modal__gNwvD",
+              "overlay": "styles_overlay__CLSq-",
+              "overlayCenter": "styles_overlayCenter__YHoO7",
+              "transitionEnter": "styles_transitionEnter__3j_-a",
+              "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+              "transitionExit": "styles_transitionExit__1KmEf",
+              "transitionExitActive": "styles_transitionExitActive__1nQXw",
+            }
+          }
+          closeIconId={null}
+          closeIconSize={28}
+          closeIconSvgPath={
+            <path
+              d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+            />
+          }
+          closeOnEsc={true}
+          closeOnOverlayClick={true}
+          focusTrapOptions={Object {}}
+          focusTrapped={false}
+          modalId={null}
+          onClose={[Function]}
+          onEntered={null}
+          onEscKeyDown={null}
+          onExited={null}
+          onOverlayClick={null}
+          open={false}
+          overlayId={null}
+          showCloseIcon={true}
+          styles={Object {}}
+        >
+          <h1
+            className="slotMachine__modal__title"
+          >
+            You Won!!!
+          </h1>
+        </Modal>,
+        <img
+          alt="logo"
+          className="slotMachine__logo"
+          src="logo.png"
+        />,
+        <div
+          className="slotMachine__grid"
+        >
+          <div
+            className="slotMachine__slot"
+          >
+            <img
+              alt="first slot"
+              src="red"
+            />
+          </div>
+          <div
+            className="slotMachine__slot"
+          >
+            <img
+              alt="second slot"
+              src="red"
+            />
+          </div>
+          <div
+            className="slotMachine__slot"
+          >
+            <img
+              alt="third slot"
+              src="red"
+            />
+          </div>
+        </div>,
+        <div
+          className="slotMachine__buttons"
+        >
+          <button
+            className="btn"
+            disabled={false}
+            onClick={[Function]}
+          >
+            Play
+          </button>
+          <h3
+            className="slotMachine__buttons__text"
+          >
+            Click the play button to start!
+          </h3>
+        </div>,
+      ],
+      "className": "slotMachine",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "animationDuration": 500,
+          "blockScroll": true,
+          "center": true,
+          "children": <h1
+            className="slotMachine__modal__title"
+          >
+            You Won!!!
+          </h1>,
+          "classNames": Object {},
+          "classes": Object {
+            "closeButton": "styles_closeButton__20ID4",
+            "closeIcon": "styles_closeIcon__1QwbI",
+            "modal": "styles_modal__gNwvD",
+            "overlay": "styles_overlay__CLSq-",
+            "overlayCenter": "styles_overlayCenter__YHoO7",
+            "transitionEnter": "styles_transitionEnter__3j_-a",
+            "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+            "transitionExit": "styles_transitionExit__1KmEf",
+            "transitionExitActive": "styles_transitionExitActive__1nQXw",
+          },
+          "closeIconId": null,
+          "closeIconSize": 28,
+          "closeIconSvgPath": <path
+            d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+          />,
+          "closeOnEsc": true,
+          "closeOnOverlayClick": true,
+          "focusTrapOptions": Object {},
+          "focusTrapped": false,
+          "modalId": null,
+          "onClose": [Function],
+          "onEntered": null,
+          "onEscKeyDown": null,
+          "onExited": null,
+          "onOverlayClick": null,
+          "open": false,
+          "overlayId": null,
+          "showCloseIcon": true,
+          "styles": Object {},
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "You Won!!!",
+            "className": "slotMachine__modal__title",
+          },
+          "ref": null,
+          "rendered": "You Won!!!",
+          "type": "h1",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "logo",
+          "className": "slotMachine__logo",
+          "src": "logo.png",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="slotMachine__slot"
+            >
+              <img
+                alt="first slot"
+                src="red"
+              />
+            </div>,
+            <div
+              className="slotMachine__slot"
+            >
+              <img
+                alt="second slot"
+                src="red"
+              />
+            </div>,
+            <div
+              className="slotMachine__slot"
+            >
+              <img
+                alt="third slot"
+                src="red"
+              />
+            </div>,
+          ],
+          "className": "slotMachine__grid",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="first slot"
+                src="red"
+              />,
+              "className": "slotMachine__slot",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "first slot",
+                "src": "red",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="second slot"
+                src="red"
+              />,
+              "className": "slotMachine__slot",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "second slot",
+                "src": "red",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="third slot"
+                src="red"
+              />,
+              "className": "slotMachine__slot",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "third slot",
+                "src": "red",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="btn"
+              disabled={false}
+              onClick={[Function]}
+            >
+              Play
+            </button>,
+            <h3
+              className="slotMachine__buttons__text"
+            >
+              Click the play button to start!
+            </h3>,
+          ],
+          "className": "slotMachine__buttons",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Play",
+              "className": "btn",
+              "disabled": false,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Play",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Click the play button to start!",
+              "className": "slotMachine__buttons__text",
+            },
+            "ref": null,
+            "rendered": "Click the play button to start!",
+            "type": "h3",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Modal
+            animationDuration={500}
+            blockScroll={true}
+            center={true}
+            classNames={Object {}}
+            classes={
+              Object {
+                "closeButton": "styles_closeButton__20ID4",
+                "closeIcon": "styles_closeIcon__1QwbI",
+                "modal": "styles_modal__gNwvD",
+                "overlay": "styles_overlay__CLSq-",
+                "overlayCenter": "styles_overlayCenter__YHoO7",
+                "transitionEnter": "styles_transitionEnter__3j_-a",
+                "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+                "transitionExit": "styles_transitionExit__1KmEf",
+                "transitionExitActive": "styles_transitionExitActive__1nQXw",
+              }
+            }
+            closeIconId={null}
+            closeIconSize={28}
+            closeIconSvgPath={
+              <path
+                d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+              />
+            }
+            closeOnEsc={true}
+            closeOnOverlayClick={true}
+            focusTrapOptions={Object {}}
+            focusTrapped={false}
+            modalId={null}
+            onClose={[Function]}
+            onEntered={null}
+            onEscKeyDown={null}
+            onExited={null}
+            onOverlayClick={null}
+            open={false}
+            overlayId={null}
+            showCloseIcon={true}
+            styles={Object {}}
+          >
+            <h1
+              className="slotMachine__modal__title"
+            >
+              You Won!!!
+            </h1>
+          </Modal>,
+          <img
+            alt="logo"
+            className="slotMachine__logo"
+            src="logo.png"
+          />,
+          <div
+            className="slotMachine__grid"
+          >
+            <div
+              className="slotMachine__slot"
+            >
+              <img
+                alt="first slot"
+                src="red"
+              />
+            </div>
+            <div
+              className="slotMachine__slot"
+            >
+              <img
+                alt="second slot"
+                src="red"
+              />
+            </div>
+            <div
+              className="slotMachine__slot"
+            >
+              <img
+                alt="third slot"
+                src="red"
+              />
+            </div>
+          </div>,
+          <div
+            className="slotMachine__buttons"
+          >
+            <button
+              className="btn"
+              disabled={false}
+              onClick={[Function]}
+            >
+              Play
+            </button>
+            <h3
+              className="slotMachine__buttons__text"
+            >
+              Click the play button to start!
+            </h3>
+          </div>,
+        ],
+        "className": "slotMachine",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "animationDuration": 500,
+            "blockScroll": true,
+            "center": true,
+            "children": <h1
+              className="slotMachine__modal__title"
+            >
+              You Won!!!
+            </h1>,
+            "classNames": Object {},
+            "classes": Object {
+              "closeButton": "styles_closeButton__20ID4",
+              "closeIcon": "styles_closeIcon__1QwbI",
+              "modal": "styles_modal__gNwvD",
+              "overlay": "styles_overlay__CLSq-",
+              "overlayCenter": "styles_overlayCenter__YHoO7",
+              "transitionEnter": "styles_transitionEnter__3j_-a",
+              "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+              "transitionExit": "styles_transitionExit__1KmEf",
+              "transitionExitActive": "styles_transitionExitActive__1nQXw",
+            },
+            "closeIconId": null,
+            "closeIconSize": 28,
+            "closeIconSvgPath": <path
+              d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+            />,
+            "closeOnEsc": true,
+            "closeOnOverlayClick": true,
+            "focusTrapOptions": Object {},
+            "focusTrapped": false,
+            "modalId": null,
+            "onClose": [Function],
+            "onEntered": null,
+            "onEscKeyDown": null,
+            "onExited": null,
+            "onOverlayClick": null,
+            "open": false,
+            "overlayId": null,
+            "showCloseIcon": true,
+            "styles": Object {},
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "You Won!!!",
+              "className": "slotMachine__modal__title",
+            },
+            "ref": null,
+            "rendered": "You Won!!!",
+            "type": "h1",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "logo",
+            "className": "slotMachine__logo",
+            "src": "logo.png",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="slotMachine__slot"
+              >
+                <img
+                  alt="first slot"
+                  src="red"
+                />
+              </div>,
+              <div
+                className="slotMachine__slot"
+              >
+                <img
+                  alt="second slot"
+                  src="red"
+                />
+              </div>,
+              <div
+                className="slotMachine__slot"
+              >
+                <img
+                  alt="third slot"
+                  src="red"
+                />
+              </div>,
+            ],
+            "className": "slotMachine__grid",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="first slot"
+                  src="red"
+                />,
+                "className": "slotMachine__slot",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "first slot",
+                  "src": "red",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="second slot"
+                  src="red"
+                />,
+                "className": "slotMachine__slot",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "second slot",
+                  "src": "red",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="third slot"
+                  src="red"
+                />,
+                "className": "slotMachine__slot",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "third slot",
+                  "src": "red",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="btn"
+                disabled={false}
+                onClick={[Function]}
+              >
+                Play
+              </button>,
+              <h3
+                className="slotMachine__buttons__text"
+              >
+                Click the play button to start!
+              </h3>,
+            ],
+            "className": "slotMachine__buttons",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Play",
+                "className": "btn",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Play",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Click the play button to start!",
+                "className": "slotMachine__buttons__text",
+              },
+              "ref": null,
+              "rendered": "Click the play button to start!",
+              "type": "h3",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
